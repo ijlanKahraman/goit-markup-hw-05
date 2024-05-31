@@ -677,7 +677,9 @@ input::placeholder {
   margin-bottom: 16px;
 }
 .modal-form-window-form {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) visibility 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-window-form-label-name {
   font-size: 12px;
@@ -766,6 +768,7 @@ input::placeholder {
 .modal-form-window-form-label-name-input-checkbox:checked + .Privacy-Policy {
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 .Privacy-Policy {
   width: 16px;
