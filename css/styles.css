@@ -687,6 +687,9 @@ input::placeholder {
   display: block;
   margin-bottom: 4px;
 }
+.modal-form-window-form-comment-main-div {
+  margin-bottom: 16px;
+}
 .modal-form-window-form-label-name-input-div {
   position: relative;
   border-color: #4d5ae5;
@@ -702,7 +705,8 @@ input::placeholder {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-window-form-label-name-input:hover {
+.modal-form-window-form-label-name-input:hover
+  .modal-form-window-form-label-name-input:focus {
   border-color: #4d5ae5;
 }
 .modal-form-window-form-label-name-input:focus
@@ -715,6 +719,7 @@ input::placeholder {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: none;
 }
 .modal-form-window-form-label-name-input-textarea {
   width: 100%;
