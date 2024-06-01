@@ -742,7 +742,6 @@ input::placeholder {
 .modal-form-window-form-label-name-input-textarea:focus {
   border-color: #4d5ae5;
 }
-
 .modal-form-window-form-label-name-input-checkbox-accept-text {
   font-size: 12px;
   line-height: 1.17;
