@@ -711,7 +711,7 @@ input::placeholder {
   border-color: #4d5ae5;
 }
 .modal-form-window-form-label-name-input:focus
-  .modal-form-window-form-label-name-input-svg {
+  + .modal-form-window-form-label-name-input-svg {
   fill: #4d5ae5;
 }
 .modal-form-window-form-label-name-input-svg {
