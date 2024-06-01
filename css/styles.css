@@ -749,9 +749,7 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.modal-form-window-form-label-name-input-checkbox:checked
-  + .privacy-policy
-  .modal-form-window-form-label-name-input-checkbox-svg {
+.modal-form-window-form-label-name-input-checkbox:checked + .privacy-policy {
   background-color: #404bbf;
   fill: #4d5ae5;
   border: none;
